@@ -57,7 +57,6 @@ The infrastructure consists of:
 - **Secrets Manager** for managing secrets securely.
 - **CodeDeploy** for continuous deployment of application code.
 
-![Architecture Diagram](architecture_diagram.png)
 
 ---
 
@@ -184,6 +183,7 @@ The infrastructure consists of:
 To deploy the infrastructure using Terraform, execute the following commands in your terminal:
 
 ```bash
+cd terraform
 terraform init
 terraform plan
 terraform apply
